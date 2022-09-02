@@ -98,7 +98,7 @@ body {
 	color: hsl(245, 75%, 52%);
 	font-size: 1.3rem;
 	font-weight: 900;
-	transition: color .3s;
+	transition: color 0.3s;
 }
 
 .annual__link:hover {
@@ -167,6 +167,11 @@ body {
 }
 
 @media (min-width: 640px) {
+	.container {
+		background-image: url(../images/pattern-background-desktop.svg);
+		background-size: contain;
+	}
+
 	.card__content {
 		padding: 0 2.7em;
 		margin-top: 2em;
